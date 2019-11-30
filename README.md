@@ -1,0 +1,3 @@
+# Document Retrieval Using Clustering
+
+This project uses the dataset 'people_wiki.gl' which has links to various wikipedia article, name of person and text of article. The project starts with analysing 'text' column for famous people like Obama and George Clooney. Then their respective word counts are counted and sorted in descending order. The most commonly occurring words are removed using tf-idf. Then again the result is sorted in decreasing order to get the most informative words. Then distances between a few people are computed manually using cosine distances. This is used to find whether Obama is closer to Clinton than to Beckham. Finally a nearest-neighbour model is applied to retrieve documents.
